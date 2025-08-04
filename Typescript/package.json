@@ -1,0 +1,20 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "Materi pembelajaran dasar pemrograman TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["typescript", "learning", "education"],
+  "author": "Muhamad Fadhli Akbar",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
